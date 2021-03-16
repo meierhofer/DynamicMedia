@@ -41,7 +41,7 @@ public class Swipe : MonoBehaviour
 
         if (move == 1)
         {
-            player.transform.Translate(Vector2.right * (3 * Time.deltaTime));
+            player.transform.Translate(Vector2.right * (5 * Time.deltaTime));
         }
     }
 }
